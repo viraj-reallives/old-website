@@ -5925,6 +5925,10 @@ img {
   grid-template-columns: 1fr 30% !important;
 }
 
+.content-sub-override-container {
+  align-items: start !important;
+}
+
 /* new  end css tab   */
 
 @media (max-width: 768px) {
@@ -6767,6 +6771,10 @@ img {
 }
 
 @media (max-width: 1668px) {
+  .content-sub-override-container{
+    padding-top: 4rem;
+  }
+
   .getting-started-container {
     padding: 2rem 9rem;
     padding-bottom: 3rem !important;
@@ -6779,6 +6787,11 @@ img {
 }
 
 @media (max-width: 1440px) {
+
+  .research-backed-text {
+    padding-top: 2rem;
+  }
+
   .browse-peer-reviewed {
     padding: 2rem 2rem;
   }
@@ -7004,6 +7017,11 @@ img {
 }
 
 @media (max-width: 1368px) {
+
+  .content-sub-override-container{
+    padding-top: 2rem !important;  
+  }
+
   .inner-title-section > h1 {
     font-size: 33px;
   }
